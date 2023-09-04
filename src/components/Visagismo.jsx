@@ -4,7 +4,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import visagismo1 from './assets/visagismo1.jpg'
-import visagismo2 from './assets/visagismo2.jpg'
+import clienta9 from './assets/clienta9.jpg'
+import clienta1 from './assets/clienta1.jpg'
+import clienta2 from './assets/clienta2.jpg'
+import clienta3 from './assets/clienta7.jpg'
+import clienta4 from './assets/clienta4.jpg'
+import clienta5 from './assets/clienta5.jpg'
+import clienta6 from './assets/clienta8.jpg'
 import Accordion from 'react-bootstrap/Accordion';
 import whatsapp from './assets/whatsapp.png'
 
@@ -32,10 +38,53 @@ export const Visagismo = () => {
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
-          src={visagismo2}
+          src={clienta9}
           alt="Second slide"
         />
       </Carousel.Item>
+      <Carousel.Item interval={2500}>
+        <img
+          className="d-block w-100"
+          src={clienta1}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2500}>
+        <img
+          className="d-block w-100"
+          src={clienta2}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2500}>
+        <img
+          className="d-block w-100"
+          src={clienta3}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2500}>
+        <img
+          className="d-block w-100"
+          src={clienta4}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2500}>
+        <img
+          className="d-block w-100"
+          src={clienta5}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item interval={2500}>
+        <img
+          className="d-block w-100"
+          src={clienta6}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+
     </Carousel>
         </div>
         </Col>

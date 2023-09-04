@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import portada1 from './assets/portada1.png';
+import portada from './assets/home1.jpg'
 import { Link } from 'react-router-dom';
 
 export const Sobremi = () => {
@@ -10,7 +10,18 @@ export const Sobremi = () => {
     <Container fluid>
       <Row>
         <Col xs={12} className="p-0">
-          <img src={portada1} alt="Portada Sobre Mi" className='imagen-portada w-100'/>
+          <div className='div-sobremi'>
+            <div className='sobremi-item'>
+             <h3>¡Hola Baby!</h3>
+             <h4>Soy Valentina Aballay</h4>
+             <h5>Diseñadora de Indumentaria y Textil, Asesora de imagen y Productora de moda</h5>
+            </div>
+            <div className='sobremi-item1'>
+             <img src={portada} className='imagen-portada' alt="Img Portada Sobre mi" />
+            </div>
+          </div>
+            
+          {/* <img src={portada1} alt="Portada Sobre Mi" className='imagen-portada w-100'/> */}
         </Col>
         <Col xs={12}>
         <div className='texto-sobremi'>
