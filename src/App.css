@@ -71,14 +71,15 @@ font-family: 'Raleway', sans-serif;  ////textos */
 
 .titulo-principal{
   font-family: 'Playfair Display', serif;
-  font-size: 3rem;
+  font-style: italic;
+  font-size: 4rem;
   text-align: center;
   padding: 5%;
-  animation: caida 1.5s ease-in-out;
+  animation: caida 1.8s ease-in-out;
 }
 
 .texto-home{
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .div-frase{
@@ -96,7 +97,7 @@ font-family: 'Raleway', sans-serif;  ////textos */
 }
 
 .home-div{
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .home-titulo{
@@ -146,7 +147,8 @@ font-family: 'Raleway', sans-serif;  ////textos */
   text-align: center;
   margin-top: 5%;
   font-family: 'Playfair Display', serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-style: italic;
 }
 
 .div-carrusel{
@@ -266,7 +268,7 @@ font-family: 'Raleway', sans-serif;  ////textos */
 .info-texto{
   text-align: justify;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: black;
 }
 
@@ -289,8 +291,8 @@ font-family: 'Raleway', sans-serif;  ////textos */
 }
 
 .div-mensaje{
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 0%;
+  margin-bottom: 7%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -300,6 +302,7 @@ font-family: 'Raleway', sans-serif;  ////textos */
 
 .div-mensaje h4{
   font-family: 'Playfair Display', sans-serif;
+  font-size: 2.2rem;
 }
 
 .icono-mensaje{
@@ -314,13 +317,14 @@ font-family: 'Raleway', sans-serif;  ////textos */
   justify-content: space-between;
   height: 500px;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .sobremi-item{
   width: 60%;
   animation: caida 1.5s ease-in-out;
   padding: 2%;
+  margin-top: 180px;
 }
 
 .sobremi-item1{
@@ -328,7 +332,7 @@ font-family: 'Raleway', sans-serif;  ////textos */
 }
 
 .sobremi-item1 .imagen-portada{
-  width: 100%;
+  width: 90%;
 }
 
 .sobremi-item h3{
@@ -352,22 +356,28 @@ font-family: 'Raleway', sans-serif;  ////textos */
 
 .imagen-portada{
   width: 75%;
-  margin: 0 auto;
-}
-
-.titulo-sobremi{
-  font-family: 'Playfair Display', sans-serif;
-  text-align: start;
-  font-size: 2.5rem;
+  margin-top: 30%;
 }
 
 .texto-sobremi{
   margin: auto;
-  width: 80%;
+  margin-top: 50px;
+}
+
+.texto-sobremi .titulo-sobremi{
+  font-family: 'Playfair Display', sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+}
+
+
+.texto-sobremi p {
   text-align: justify;
   font-family:'Raleway', sans-serif;
-  margin-top: 50px;
   font-size: 1.5rem;
+  width: 90%;
+  margin: auto;
 }
 
 .div-botones-sobremi{
@@ -384,7 +394,6 @@ font-family: 'Raleway', sans-serif;  ////textos */
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 
 /* CONTACTO */
 .div-contacto .h2-contacto{
@@ -453,7 +462,7 @@ font-family: 'Raleway', sans-serif;  ////textos */
 
   .titulo-principal{
     margin-top: 30px;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .home-img{
@@ -523,6 +532,15 @@ font-family: 'Raleway', sans-serif;  ////textos */
   .div-mensaje{
     margin-top: 20px;
     margin-bottom: 50px;
+  }
+
+  .div-mensaje h4{
+    font-size: 2rem;
+  }
+
+  .desplegable-texto{
+    font-size: 1.3rem;
+    color: black;
   }
   
   .titulo-sobremi{
@@ -608,6 +626,8 @@ font-family: 'Raleway', sans-serif;  ////textos */
     font-size: 1.7rem;
   }
 
+  /* SOBRE MI */
+
   .div-sobremi{
     display: flex;
     flex-direction: column;
@@ -622,33 +642,35 @@ font-family: 'Raleway', sans-serif;  ////textos */
     width: 100%;
     animation: caida 1.5s ease-in-out;
     padding: 1%;
+    margin-top: 5px;
   }
   
   .sobremi-item1{
-    width: 80%;
+    width: 90%;
   }
   
   .sobremi-item1 .imagen-portada{
     width: 100%;
+    margin-top: 15%;
   }
   
   .sobremi-item h3{
     font-family: 'Playfair Display', sans-serif;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     font-style: italic;
   }
   
   .sobremi-item h4{
     font-family: 'Playfair Display', sans-serif;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
   }
   
   .sobremi-item h5{
     font-family: 'Playfair Display', sans-serif;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   
   .imagen-portada{

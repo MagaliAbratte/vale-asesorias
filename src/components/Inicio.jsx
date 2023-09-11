@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import home from './assets/valentina1.jpg'
+import home from './assets/home.jpg'
 import home1 from './assets/relleno.jpg'
 import marmol from './assets/marmol.jpg'
 import { Link } from 'react-router-dom';
@@ -11,7 +11,9 @@ import Carousel from 'react-bootstrap/Carousel';
 export const Inicio = () => {
   return (
     <div>
-      <h1 className='titulo-principal'>Vestirnos para el exito</h1>
+      <h1 className='titulo-principal'>Vestirnos para
+      <br />
+       el éxito</h1>
       <div className='div-container'>
        <Container>
         <div className='texto-home'>
@@ -71,7 +73,7 @@ export const Inicio = () => {
       </div>
 
       <div className='div-frase'>
-        <p className='home-titulo1'>Vale Asesorias es un lugar para conocerte, entender tu belleza y relucir tu esencia, llevandola a su maximo potencial...</p>
+        <p className='home-titulo1'>Vale Asesorias es un lugar para conocerte, entender tu belleza y relucir tu esencia, llevandola a su maximo potencial.</p>
       </div>
     </div>
   )
