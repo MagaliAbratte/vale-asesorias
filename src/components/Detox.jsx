@@ -28,7 +28,7 @@ export const Detox = () => {
         <img
           className="d-block w-100"
           src={detox}
-          alt="First slide"
+          alt="Img Carrusel Detox"
         />
       </Carousel.Item>
     </Carousel>

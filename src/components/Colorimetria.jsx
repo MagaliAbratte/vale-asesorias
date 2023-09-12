@@ -27,14 +27,14 @@ export const Colorimetria = () => {
         <img
           className="d-block w-100"
           src={color1}
-          alt="First slide"
+          alt="Img Carrusel Color"
         />
       </Carousel.Item>
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
           src={color3}
-          alt="Second slide"
+          alt="Img Carrusel Color"
         />
       </Carousel.Item>
     </Carousel>

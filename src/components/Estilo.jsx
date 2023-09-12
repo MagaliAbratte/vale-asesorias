@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -7,7 +7,6 @@ import estilo2 from './assets/estilo2.jpg'
 import estilo3 from './assets/estilo3.jpg'
 import Accordion from 'react-bootstrap/Accordion';
 import whatsapp from './assets/whatsapp.png'
-
 
 export const Estilo = () => {
   return (
@@ -27,14 +26,14 @@ export const Estilo = () => {
         <img
           className="d-block w-100"
           src={estilo2}
-          alt="First slide"
+          alt="Img Carrusel Estilo"
         />
       </Carousel.Item>
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
           src={estilo3}
-          alt="Second slide"
+          alt="Img Carrusel Estilo"
         />
       </Carousel.Item>
     </Carousel>

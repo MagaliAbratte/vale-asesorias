@@ -21,7 +21,7 @@ export const Servicios = () => {
         <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} className="d-flex justify-content-center text-center">
             <Card style={{ width: '18rem' }} className='card'>
-              <Card.Img variant="top" src={estilo} loading="lazy"/>
+              <Card.Img variant="top" src={estilo} alt='Img Estilo Personal'/>
               <Card.Body>
                 <Card.Title className='card-titulo'>Estilo Personal</Card.Title>
                 <Card.Text className='card-texto'>
@@ -34,7 +34,7 @@ export const Servicios = () => {
 
           <Col xs={12} sm={6} md={4} className="d-flex justify-content-center text-center">
             <Card style={{ width: '18rem' }} >
-              <Card.Img variant="top" src={color} loading="lazy"/>
+              <Card.Img variant="top" src={color} alt='Img Colorimetria'/>
               <Card.Body>
                 <Card.Title className='card-titulo'>Colorimetria</Card.Title>
                 <Card.Text className='card-texto'>
@@ -47,7 +47,7 @@ export const Servicios = () => {
 
           <Col xs={12} sm={6} md={4} className="d-flex justify-content-center text-center">
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={silueta} loading="lazy"/>
+              <Card.Img variant="top" src={silueta} alt='Img Silueta'/>
               <Card.Body>
                 <Card.Title className='card-titulo'>Silueta</Card.Title>
                 <Card.Text className='card-texto'>
@@ -62,7 +62,7 @@ export const Servicios = () => {
         <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} className="d-flex justify-content-center text-center">
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={visagismo} loading="lazy"/>
+              <Card.Img variant="top" src={visagismo} alt='Img Visagismo'/>
               <Card.Body>
                 <Card.Title className='card-titulo'>Visagismo</Card.Title>
                 <Card.Text className='card-texto'>
@@ -75,7 +75,7 @@ export const Servicios = () => {
 
           <Col xs={12} sm={6} md={4} className="d-flex justify-content-center text-center">
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={exito} loading="lazy" />
+              <Card.Img variant="top" src={exito}  alt='Img Exito'/>
               <Card.Body>
                 <Card.Title className='card-titulo'>Vestirnos para el exito</Card.Title>
                 <Card.Text className='card-texto'>
@@ -88,7 +88,7 @@ export const Servicios = () => {
 
           <Col xs={12} sm={6} md={4} className="d-flex justify-content-center text-center">
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={fiesta} loading="lazy"/>
+              <Card.Img variant="top" src={fiesta} alt='Img Fiestas'/>
               <Card.Body>
                 <Card.Title className='card-titulo'>Fiestas y Eventos</Card.Title>
                 <Card.Text className='card-texto'>
@@ -103,7 +103,7 @@ export const Servicios = () => {
         <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} className="d-flex justify-content-center text-center">
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={compras} loading="lazy"/>
+              <Card.Img variant="top" src={compras} alt='Img Compras'/>
               <Card.Body>
                 <Card.Title className='card-titulo'>Compras Inteligentes</Card.Title>
                 <Card.Text className='card-texto'>
@@ -116,7 +116,7 @@ export const Servicios = () => {
 
           <Col xs={12} sm={6} md={4} className="d-flex justify-content-center text-center">
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={detox} loading="lazy"/>
+              <Card.Img variant="top" src={detox} alt='Img Detox'/>
               <Card.Body>
                 <Card.Title className='card-titulo'>DETOX</Card.Title>
                 <Card.Text className='card-texto'>
@@ -129,7 +129,7 @@ export const Servicios = () => {
 
           <Col xs={12} sm={6} md={4} className="d-flex justify-content-center text-center">
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={charlas} loading="lazy"/>
+              <Card.Img variant="top" src={charlas} alt='Img Charlas'/>
               <Card.Body>
                 <Card.Title className='card-titulo'>Charlas</Card.Title>
                 <Card.Text className='card-texto'>

@@ -26,14 +26,14 @@ export const Compras = () => {
         <img
           className="d-block w-100"
           src={estilo2}
-          alt="First slide"
+          alt="Img Carrusel Compras"
         />
       </Carousel.Item>
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
           src={estilo3}
-          alt="Second slide"
+          alt="Img Carrusel Compras"
         />
       </Carousel.Item>
     </Carousel>

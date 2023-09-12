@@ -17,7 +17,7 @@ export const Contacto = () => {
               <h2 className='h2-contacto'>CONTACTO</h2>
               <div className='div-infocontacto'>
                 <a href="https://api.whatsapp.com/send?phone=5493491506441">
-                  <img src={whatsapp} alt="Icono Wpp" className='icono-contacto'/>
+                  <img src={whatsapp} alt="Icono Whatsapp" className='icono-contacto'/>
                 </a>
                 <p className='texto-contacto'>+54 9 3491 50-6441</p>
               </div>
@@ -29,13 +29,13 @@ export const Contacto = () => {
               </div>
               <div className='div-infocontacto'>
                 <a href="https://www.instagram.com/vale.asesorias/" target='_blank' rel='noopener noreferrer'>
-                  <img src={instagram} alt="Icono Ig" className='icono-contacto'/>
+                  <img src={instagram} alt="Icono Instagram" className='icono-contacto'/>
                 </a>
                 <p className='texto-contacto'>@vale.asesorias</p>
               </div>
               <div className='div-infocontacto'>
                 <a href="https://www.tiktok.com/@valeasesorias" target='_blank' rel='noopener noreferrer'>
-                  <img src={tiktok} alt="Icono Ig" className='icono-contacto'/>
+                  <img src={tiktok} alt="Icono Tiktok" className='icono-contacto'/>
                 </a>
                 <p className='texto-contacto'>@valeasesorias</p>
               </div>

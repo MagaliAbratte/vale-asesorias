@@ -28,14 +28,14 @@ export const Exito = () => {
         <img
           className="d-block w-100"
           src={exito}
-          alt="First slide"
+          alt="Img Carrusel Exito"
         />
       </Carousel.Item>
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
           src={exito1}
-          alt="Second slide"
+          alt="Img Carrusel Exito"
         />
       </Carousel.Item>
     </Carousel>

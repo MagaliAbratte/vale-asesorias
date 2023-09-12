@@ -17,12 +17,14 @@ import { Exito } from './components/Exito';
 import { Detox } from './components/Detox';
 import { Eventos } from './components/Eventos';
 import { Charlas } from './components/Charlas';
+import { ScrollToTop } from './components/ScrollToTop';
 
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+       <ScrollToTop />
         <NavBar />
         <Routes>
           <Route path='/' element= {<Inicio />}/>
