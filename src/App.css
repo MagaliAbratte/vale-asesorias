@@ -68,18 +68,33 @@ font-family: 'Raleway', sans-serif;  ////textos */
   }
 }
 
+.titulos-home{
+  animation: caida 1.8s ease-in-out;
+}
+
+.titulo-principal1{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8em;
+  text-align: center;
+  padding-top: 30px;
+}
 
 .titulo-principal{
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 4rem;
   text-align: center;
-  padding: 5%;
-  animation: caida 1.8s ease-in-out;
 }
 
 .texto-home{
   margin-bottom: 100px;
+}
+
+.info-texto-home{
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
+  color: black;
 }
 
 .div-frase{
@@ -141,6 +156,10 @@ font-family: 'Raleway', sans-serif;  ////textos */
   outline-offset: 2px;
 }
 
+.div-frase{
+  height: 250px;
+}
+
 .div-frase .home-titulo1{
   width: 60%;
   margin: 0 auto;
@@ -149,6 +168,20 @@ font-family: 'Raleway', sans-serif;  ////textos */
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
   font-style: italic;
+}
+
+.home-redes{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  margin-top: 40px;
+}
+
+.home-redes .icono-home{
+  width: 50px;
 }
 
 .div-carrusel{
@@ -262,7 +295,6 @@ font-family: 'Raleway', sans-serif;  ////textos */
 .info-subtitulo{
   text-align: center;
   font-family: 'Playfair Display', italic;
-
 }
 
 .info-texto{
@@ -471,14 +503,13 @@ font-family: 'Raleway', sans-serif;  ////textos */
   }
 
   .home-div{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
   }
 
   .home-titulo{
     font-size: 2.5rem;
   }
-
 
   .div-frase .home-titulo1{
     width: 90%;
@@ -499,8 +530,22 @@ font-family: 'Raleway', sans-serif;  ////textos */
   }
 
   .div-frase{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
+  }
+
+  .home-redes{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-top: 80px;
+  }
+  
+  .home-redes .icono-home{
+    width: 50px;
   }
 
 .carrusel-item{

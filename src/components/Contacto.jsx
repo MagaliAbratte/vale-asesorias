@@ -16,7 +16,7 @@ export const Contacto = () => {
             <div className='div-contacto'>
               <h2 className='h2-contacto'>CONTACTO</h2>
               <div className='div-infocontacto'>
-                <a href="https://api.whatsapp.com/send?phone=5493491506441">
+                <a href="https://api.whatsapp.com/send?phone=5493491506441" target='_blank'>
                   <img src={whatsapp} alt="Icono Whatsapp" className='icono-contacto'/>
                 </a>
                 <p className='texto-contacto'>+54 9 3491 50-6441</p>
