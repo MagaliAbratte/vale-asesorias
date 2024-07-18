@@ -1,15 +1,14 @@
-import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import home from './assets/home.jpg'
-import home1 from './assets/relleno.jpg'
-import marmol from './assets/marmol.jpg'
+import home from '../assets/home/home.jpg'
+import home1 from '../assets/home/relleno.jpg'
+import marmol from '../assets/home/marmol.jpg'
+import instagram from '../assets/contacto/instagram.png';
+import whatsapp from '../assets/contacto/whatsapp.png';
+import tiktok from '../assets/contacto/tiktok.png'
 import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
-import instagram from './assets/instagram.png';
-import whatsapp from './assets/whatsapp.png';
-import tiktok from './assets/tiktok.png'
 
 
 export const Inicio = () => {
@@ -26,27 +25,26 @@ export const Inicio = () => {
       <div className='div-container'>
        <Container>
         <div className='texto-home'>
-        <Row>
+         <Row>
+           <Col md={6}>
+           <img src={home} alt="Img portada" className='home-img' />
+           </Col>
 
-          <Col md={6}>
-          <img src={home} alt="Img portada" className='home-img' />
-          </Col>
-
-          <Col md={6}>
-          <p className='info-texto-home'>¡Bienvenido/a a mi sitio web! donde la belleza y la confianza se fusionan para transformar tu vida. Como asesora de imagen, mi objetivo es ayudarte a descubrir y potenciar tu belleza natural, a través de técnicas personalizadas y un servicio de calidad. </p>
-          <p className='info-texto-home'>Creo firmemente que la belleza comienza desde el interior y se refleja en el exterior, por eso, mi enfoque va más allá de la apariencia física, se trata de descubrir quién eres y cómo quieres que el mundo te perciba. Mi misión es guiarte en este camino de autodescubrimiento para que puedas proyectar tu mejor versión y sentirte seguro/a de ti mismo/a en todo momento.</p>
-          <p className='info-texto-home'>No importa si buscas un cambio de imagen total, o simplemente quieres refrescar tu estilo, mi enfoque personalizado te brindará las herramientas necesarias para lograr tus objetivos. Permíteme acompañarte en este viaje hacia la auto-confianza y la belleza interior, y descubre cómo una imagen poderosa puede transformar tu vida.</p>
-          <p className='info-texto-home'>¡No esperes más para comenzar a brillar con tu propia luz! Contáctame para agendar una sesión personalizada y descubrir el potencial que hay en ti.</p>
-          </Col>
-        </Row>
+           <Col md={6}>
+           <p className='info-texto-home'>¡Bienvenido/a a mi sitio web! donde la belleza y la confianza se fusionan para transformar tu vida. Como asesora de imagen, mi objetivo es ayudarte a descubrir y potenciar tu belleza natural, a través de técnicas personalizadas y un servicio de calidad. </p>
+           <p className='info-texto-home'>Creo firmemente que la belleza comienza desde el interior y se refleja en el exterior, por eso, mi enfoque va más allá de la apariencia física, se trata de descubrir quién eres y cómo quieres que el mundo te perciba. Mi misión es guiarte en este camino de autodescubrimiento para que puedas proyectar tu mejor versión y sentirte seguro/a de ti mismo/a en todo momento.</p>
+           <p className='info-texto-home'>No importa si buscas un cambio de imagen total, o simplemente quieres refrescar tu estilo, mi enfoque personalizado te brindará las herramientas necesarias para lograr tus objetivos. Permíteme acompañarte en este viaje hacia la auto-confianza y la belleza interior, y descubre cómo una imagen poderosa puede transformar tu vida.</p>
+           <p className='info-texto-home'>¡No esperes más para comenzar a brillar con tu propia luz! Contáctame para agendar una sesión personalizada y descubrir el potencial que hay en ti.</p>
+           </Col>
+         </Row>
         </div>
 
         <div className='servicios-home'>
         <Row>
-         <Col md={6} className="d-flex justify-content-center text-center">
+         <Col md={7} className="d-flex justify-content-center text-center">
          <img src={home1} alt="Img servicios" className='home-img' />
          </Col>
-         <Col md={6} className="d-flex justify-content-center text-center">
+         <Col md={5} className="d-flex justify-content-center text-center">
          <div className='home-div'>
           <h2 className='home-titulo'>Servicios</h2>
           <h3 className='home-texto'>Transforma tu imagen</h3>

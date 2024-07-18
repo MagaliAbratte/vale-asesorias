@@ -1,23 +1,21 @@
-import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
-import estilo2 from './assets/estilo2.jpg'
-import estilo3 from './assets/estilo3.jpg'
 import Accordion from 'react-bootstrap/Accordion';
-import whatsapp from './assets/whatsapp.png'
+import silueta2 from '../assets/silueta/silueta2.jpg'
+import silueta3 from '../assets/silueta/silueta3.jpg'
+import whatsapp from '../assets/contacto/whatsapp.png'
 
-export const Compras = () => {
+export const Silueta = () => {
   return (
     <>
-       <Container className='info-container'>
+    <Container className='info-container'>
       <Row>
         <Col md={6}>
-        <h2 className='info-titulo'>Compras Inteligentes</h2>
-        <p className='info-texto'>Es un servicio pensado directamente para saber cómo, cuándo y qué comprar de una manera eficiente e inteligente.</p>
-        <p className='info-texto'>Veremos tips generales sobre las compras, cómo armar un presupuesto, de qué manera comprar online, cómo distinguir si una prenda es o no de calidad, cómo armar un mapa de compras y cómo frenar los errores más comunes y cuáles son las prendas que valen la pena invertir. </p>
-        <p className='info-texto'>Es una guía personal para desarrollar la habilidad de compras y lograr así un guardarropa eficiente, consciente en base a nuestro bolsillo y el cuidado del medio ambiente.</p>
+        <h2 className='info-titulo'>Silueta</h2>
+        <p className='info-texto'>Analizamos la morfología del cuerpo y sus atributos para comprender y entender la silueta. Una vez estudiada podremos saber qué tipologías de prendas nos favorecen, los cortes y diseños que nos hacen sentir cómodas y lindas, vemos de qué manera utilizar el estampado a nuestro favor, la distribución de los colores, los tipos de textiles a tener en cuenta y que prendas o diseño va ser mejor que evitemos usar.</p>
+        <p className='info-texto'>La finalidad de éste servicio es tomar los puntos fuertes, esas partes que nos gustan y embellecerlas de tal manera que nos haga ganar confianza en nosotras mismas. Saber todo nuestro potencial hace que logremos una imagen fuerte y cómoda.</p>
         </Col>
         <Col md={6}>
         <div>
@@ -25,15 +23,15 @@ export const Compras = () => {
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
-          src={estilo2}
-          alt="Img Carrusel Compras"
+          src={silueta2}
+          alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
-          src={estilo3}
-          alt="Img Carrusel Compras"
+          src={silueta3}
+          alt="Second slide"
         />
       </Carousel.Item>
     </Carousel>
@@ -49,7 +47,8 @@ export const Compras = () => {
       <Accordion.Item eventKey="0">
         <Accordion.Header className='desplegable-titulo'><strong>INFO</strong></Accordion.Header>
         <Accordion.Body className='desplegable-texto'>
-        Son 2 encuentros que se pueden realizar de forma presencial u online. En el primer encuentro se realizan preguntas  y se da una conversación para detectar los errores que se están cometiendo. En el segundo encuentro vemos la guía juntas de cada pilar que debemos tener en cuenta al momento de realizar una compra y despejar dudas.
+        Son 2 encuentros. Si el primer encuentro es presencial, se hace la prueba y se realiza el diagnóstico en vivo. Si el primer encuentro es online, se realizan preguntas y se indica el tipo de fotografía que se deberá enviar para poder hacer el diagnóstico. En el segundo encuentro, tanto presencial como online, vemos la guía personal en detalle, los colores, sus combinaciones y resolvemos dudas. 
+        Tenemos modalidad PRESENCIAL en Córdoba Capital con dirección a coordinar una vez agendado el turno u ONLINE desde cualquier punto de Argentina o exterior del país.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
@@ -61,11 +60,11 @@ export const Compras = () => {
       <Accordion.Item eventKey="2">
         <Accordion.Header className='desplegable-titulo'><strong>VALOR Y FORMA DE PAGO</strong></Accordion.Header>
         <Accordion.Body className='desplegable-texto'>
-         $15.000 efectivo o transferencia.
-         <br />
-         $18.000 con tarjeta de crédito por mercado pago para residentes Argentinos.
-         <br />
-         US$ 50 por Western Union o PayPal para extranjeros.
+        $17.000 efectivo o transferencia.
+        <br />
+        $20.000  tarjeta de crédito por Mercado Pago para residentes Argentinos.
+        <br />
+        US$50 por Western Union o PayPal para extranjeros. 
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
@@ -83,6 +82,6 @@ export const Compras = () => {
         </Col>
       </Row>
     </Container>
-    </>
+   </>
   )
 }

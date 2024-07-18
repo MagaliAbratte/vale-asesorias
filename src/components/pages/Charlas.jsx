@@ -1,12 +1,11 @@
-import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
-import whatsapp from './assets/whatsapp.png'
-import charlas1 from './assets/charlas1.jpg'
-import charlas2 from './assets/charlas2.jpg'
-import charlas3 from './assets/charlas3.jpg'
+import charlas1 from '../assets/charlas/charlas1.jpg'
+import charlas2 from '../assets/charlas/charlas2.jpg'
+import charlas3 from '../assets/charlas/charlas3.jpg'
+import whatsapp from '../assets/contacto/whatsapp.png'
 
 export const Charlas = () => {
   return (

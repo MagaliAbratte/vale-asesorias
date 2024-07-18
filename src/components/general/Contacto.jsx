@@ -1,11 +1,10 @@
-import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import instagram from './assets/instagram.png';
-import whatsapp from './assets/whatsapp.png';
-import gmail from './assets/gmail.png';
-import tiktok from './assets/tiktok.png'
+import instagram from '../assets/contacto/instagram.png';
+import whatsapp from '../assets/contacto/whatsapp.png';
+import gmail from '../assets/contacto/gmail.png';
+import tiktok from '../assets/contacto/tiktok.png'
 
 export const Contacto = () => {
   return (

@@ -1,22 +1,23 @@
-import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import Accordion from 'react-bootstrap/Accordion';
-import whatsapp from './assets/whatsapp.png'
-import silueta2 from './assets/silueta2.jpg'
-import silueta3 from './assets/silueta3.jpg'
+import color1 from '../assets/color/color1.jpg'
+import color3 from '../assets/color/color3.jpg'
+import whatsapp from '../assets/contacto/whatsapp.png'
 
-export const Silueta = () => {
+export const Colorimetria = () => {
   return (
     <>
     <Container className='info-container'>
       <Row>
         <Col md={6}>
-        <h2 className='info-titulo'>Silueta</h2>
-        <p className='info-texto'>Analizamos la morfología del cuerpo y sus atributos para comprender y entender la silueta. Una vez estudiada podremos saber qué tipologías de prendas nos favorecen, los cortes y diseños que nos hacen sentir cómodas y lindas, vemos de qué manera utilizar el estampado a nuestro favor, la distribución de los colores, los tipos de textiles a tener en cuenta y que prendas o diseño va ser mejor que evitemos usar.</p>
-        <p className='info-texto'>La finalidad de éste servicio es tomar los puntos fuertes, esas partes que nos gustan y embellecerlas de tal manera que nos haga ganar confianza en nosotras mismas. Saber todo nuestro potencial hace que logremos una imagen fuerte y cómoda.</p>
+        <h2 className='info-titulo'>Colorimetria</h2>
+        <p className='info-texto'>¿Queres descubrir qué colores realzan tu belleza natural y te hacen lucir radiante? ¡La colorimetría es el servicio que necesitas! Con esta técnica, identificarás cuáles son los colores que mejor se adaptan a tu tono de piel, cabello y ojos, y aprenderás a combinarlos de manera brillante.</p>
+        <p className='info-texto'>Es un servicio único con la finalidad de realzar tu belleza, identificando los colores para lucir luminosa y espléndida. </p>
+        <p className='info-texto'>Vas a optimizar tus compras de ropa en general, confiando en la certeza de cada elección. Además de conocer los metales que van a ir en la misma energía, tonalidades para maquillaje y los colores de cabello que podrían ser alternativas de cambio de tu tono natural sin fallar en el intento. Entender y conocer formas de usar colores que nos gustan pero que no son parte de nuestra paleta.</p>
+        <p className='info-texto'>¡Atrévete a brillar con tu propia paleta de colores y reserva tu sesión de colorimetría hoy mismo! </p>
         </Col>
         <Col md={6}>
         <div>
@@ -24,15 +25,15 @@ export const Silueta = () => {
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
-          src={silueta2}
-          alt="First slide"
+          src={color1}
+          alt="Img Carrusel Color"
         />
       </Carousel.Item>
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
-          src={silueta3}
-          alt="Second slide"
+          src={color3}
+          alt="Img Carrusel Color"
         />
       </Carousel.Item>
     </Carousel>
@@ -55,7 +56,7 @@ export const Silueta = () => {
       <Accordion.Item eventKey="1">
         <Accordion.Header className='desplegable-titulo'><strong>FORMA DE TRABAJO</strong></Accordion.Header>
         <Accordion.Body className='desplegable-texto'>
-        Al terminar la asesoría se entrega en formato PDF una guía personal con toda la explicación brindada y referencias con ejemplos.
+        Al terminar la asesoría se entrega en formato PDF 2 guías, la paleta de color y otra con toda la explicación brindada y referencias con ejemplos.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">

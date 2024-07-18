@@ -1,18 +1,17 @@
-import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
-import estilo from './assets/estilo.jpg';
-import color from './assets/color2.jpg';
-import silueta from './assets/silueta1.jpg';
-import visagismo from './assets/visagismo.jpg';
-import exito from './assets/exito.jpg';
-import detox from './assets/detox.jpg';
-import compras from './assets/sobremi.jpg';
-import fiesta from './assets/fiestas1.jpg';
-import charlas from './assets/charlas.jpg';
+import estilo from '../assets/estilo/estilo.jpg';
+import color from '../assets/color/color2.jpg';
+import silueta from '../assets/silueta/silueta1.jpg';
+import visagismo from '../assets/visagismo/visagismo.jpg';
+import exito from '../assets/exito/exito.jpg';
+import detox from '../assets/detox/detox.jpg';
+import compras from '../assets/sobremi/sobremi.jpg';
+import fiesta from '../assets/fiestas/fiestas1.jpg';
+import charlas from '../assets/charlas/charlas.jpg';
 
 export const Servicios = () => {
   return (

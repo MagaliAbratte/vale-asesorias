@@ -1,18 +1,17 @@
-import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
-import visagismo1 from './assets/visagismo1.jpg'
-import clienta9 from './assets/clienta9.jpg'
-import clienta1 from './assets/clienta1.jpg'
-import clienta2 from './assets/clienta2.jpg'
-import clienta3 from './assets/clienta7.jpg'
-import clienta4 from './assets/clienta4.jpg'
-import clienta5 from './assets/clienta5.jpg'
-import clienta6 from './assets/clienta8.jpg'
 import Accordion from 'react-bootstrap/Accordion';
-import whatsapp from './assets/whatsapp.png'
+import visagismo1 from '../assets/visagismo/visagismo1.jpg'
+import clienta9 from '../assets/clientas/clienta9.jpg'
+import clienta1 from '../assets/clientas/clienta1.jpg'
+import clienta2 from '../assets/clientas/clienta2.jpg'
+import clienta3 from '../assets/clientas/clienta7.jpg'
+import clienta4 from '../assets/clientas/clienta4.jpg'
+import clienta5 from '../assets/clientas/clienta5.jpg'
+import clienta6 from '../assets/clientas/clienta8.jpg'
+import whatsapp from '../assets/contacto/whatsapp.png'
 
 export const Visagismo = () => {
   return (

@@ -1,11 +1,10 @@
-import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
-import detox from './assets/detox.jpg'
 import Accordion from 'react-bootstrap/Accordion';
-import whatsapp from './assets/whatsapp.png'
+import detox from '../assets/detox/detox.jpg'
+import whatsapp from '../assets/contacto/whatsapp.png'
 
 export const Detox = () => {
   return (

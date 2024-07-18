@@ -1,23 +1,22 @@
-import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import { NavBar } from './components/Navbar';
-import { Sobremi } from './components/Sobremi';
-import { Contacto } from './components/Contacto';
-import { Colorimetria } from './components/Colorimetria';
-import { Visagismo } from './components/Visagismo';
-import { Silueta } from './components/Silueta';
-import { Estilo } from './components/Estilo';
-import { Compras } from './components/Compras';
-import { Inicio } from './components/Inicio';
-import { Servicios } from './components/Servicios';
-import { Footer } from './components/Footer';
-import { Exito } from './components/Exito';
-import { Detox } from './components/Detox';
-import { Eventos } from './components/Eventos';
-import { Charlas } from './components/Charlas';
-import { ScrollToTop } from './components/ScrollToTop';
+import { NavBar } from './components/layout/Navbar';
+import { Sobremi } from './components/general/Sobremi';
+import { Contacto } from './components/general/Contacto';
+import { Colorimetria } from './components/pages/Colorimetria';
+import { Visagismo } from './components/pages/Visagismo';
+import { Silueta } from './components/pages/Silueta';
+import { Estilo } from './components/pages/Estilo';
+import { Compras } from './components/pages/Compras';
+import { Inicio } from './components/general/Inicio';
+import { Servicios } from './components/general/Servicios';
+import { Footer } from './components/layout/Footer';
+import { Exito } from './components/pages/Exito';
+import { Detox } from './components/pages/Detox';
+import { Eventos } from './components/pages/Eventos';
+import { Charlas } from './components/pages/Charlas';
+import { ScrollToTop } from './components/layout/ScrollToTop';
 
 
 function App() {

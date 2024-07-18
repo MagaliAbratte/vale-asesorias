@@ -1,12 +1,11 @@
-import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
-import exito from './assets/sobremi1.jpg'
-import exito1 from './assets/exito.jpg'
 import Accordion from 'react-bootstrap/Accordion';
-import whatsapp from './assets/whatsapp.png'
+import exito from '../assets/sobremi/sobremi1.jpg'
+import exito1 from '../assets/exito/exito.jpg'
+import whatsapp from '../assets/contacto/whatsapp.png'
 
 export const Exito = () => {
   return (
