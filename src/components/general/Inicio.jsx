@@ -9,35 +9,42 @@ import whatsapp from '../assets/contacto/whatsapp.png';
 import tiktok from '../assets/contacto/tiktok.png'
 import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
-
+import { useNavigate } from 'react-router-dom';
 
 export const Inicio = () => {
+
+  const navigate = useNavigate()
+
+  const handleNavigate = () =>{
+    navigate('/servicios')
+  }
+
   return (
+    <>
+    <div className="mt-4">
+      <h1 className="titulo-principal1 display-4 text-center mt-4 pt-4">Asesoria de Imagen</h1>
+      <div className="p-2 titulo-home text-center">
+        <h4 
+          className="titulo-principal d-inline-block d-md-block" 
+          onClick={handleNavigate} 
+          style={{ cursor: 'pointer' }}
+        >
+          Vestite para el éxito
+        </h4>
+      </div>
+
       <div>
-
-       <div className='titulos-home'>
-        <h1 className='titulo-principal1'>Asesoramiento de Imagen</h1>
-        <h3 className='titulo-principal'>Vestirnos para
-         <br />
-         el éxito</h3>
-       </div>
-
-      <div className='div-container'>
-       <Container>
-        <div className='texto-home'>
-         <Row>
-           <Col md={6}>
-           <img src={home} alt="Img portada" className='home-img' />
-           </Col>
-
-           <Col md={6}>
-           <p className='info-texto-home'>¡Bienvenido/a a mi sitio web! donde la belleza y la confianza se fusionan para transformar tu vida. Como asesora de imagen, mi objetivo es ayudarte a descubrir y potenciar tu belleza natural, a través de técnicas personalizadas y un servicio de calidad. </p>
-           <p className='info-texto-home'>Creo firmemente que la belleza comienza desde el interior y se refleja en el exterior, por eso, mi enfoque va más allá de la apariencia física, se trata de descubrir quién eres y cómo quieres que el mundo te perciba. Mi misión es guiarte en este camino de autodescubrimiento para que puedas proyectar tu mejor versión y sentirte seguro/a de ti mismo/a en todo momento.</p>
-           <p className='info-texto-home'>No importa si buscas un cambio de imagen total, o simplemente quieres refrescar tu estilo, mi enfoque personalizado te brindará las herramientas necesarias para lograr tus objetivos. Permíteme acompañarte en este viaje hacia la auto-confianza y la belleza interior, y descubre cómo una imagen poderosa puede transformar tu vida.</p>
-           <p className='info-texto-home'>¡No esperes más para comenzar a brillar con tu propia luz! Contáctame para agendar una sesión personalizada y descubrir el potencial que hay en ti.</p>
-           </Col>
-         </Row>
-        </div>
+        <Container>
+          <div className='mb-5'>
+            <Row className="align-items-center text-center text-md-start">
+              <Col md={6}>
+                <img src={home} alt="Img portada" className='home-img img-fluid w-75' />
+              </Col>
+              <Col md={6}>
+                <p className='mt-4 fs-4'>Mi misión es ayudarte a potenciar y proyectar una imagen segura de ti misma en todo momento. Vístete con un look libre y consciente, desde el lado más humano, con empatía, comprensión y escucha.</p>
+              </Col>
+            </Row>
+          </div>
 
         <div className='servicios-home'>
         <Row>
@@ -79,9 +86,7 @@ export const Inicio = () => {
     </Carousel>
       </div>
 
-      <div className='div-frase'>
-        <p className='home-titulo1'>Vale Asesorias es un lugar para conocerte, entender tu belleza y relucir tu esencia, llevandola a su maximo potencial.</p>
-
+      <div className='mb-5'>
         <div className='home-redes'>
           <a href="https://api.whatsapp.com/send?phone=5493491506441" target='_blank'>
            <img src={whatsapp} alt="Icono Whatsapp" className='icono-home'/>
@@ -93,8 +98,8 @@ export const Inicio = () => {
            <img src={tiktok} alt="Icono Tiktok" className='icono-home'/>
           </a>
         </div>
-
       </div>
     </div>
+    </>
   )
 }

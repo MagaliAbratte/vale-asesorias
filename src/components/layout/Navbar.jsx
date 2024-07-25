@@ -9,10 +9,10 @@ export const NavBar = () => {
   return (
     <>
       <Navbar expand="lg" bg="black" variant="dark" className="custom-navbar">
-        <Container className="d-flex flex-column align-items-start justify-content-between">
+        <Container className="d-flex flex-column align-items-start align-items-lg-center justify-content-between">
           <div className="d-flex align-items-center justify-content-between w-100">
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="d-lg-none" />
-            <Navbar.Brand href="/" className="align-items-center mx-auto mx-lg-0">
+            <Navbar.Brand href="/" className="align-items-center mx-auto">
               <img 
                 src={logo1} 
                 alt="Logo" 
@@ -21,7 +21,7 @@ export const NavBar = () => {
             </Navbar.Brand>
           </div>
           <Navbar.Collapse id="basic-navbar-nav" className="w-100">
-            <Nav className="w-100 flex-column flex-lg-row align-items-lg-center justify-content-lg-center mt-3 mt-lg-0 text-center">
+            <Nav className="w-100 flex-column flex-lg-row align-items-lg-center justify-content-lg-center mt-3 mt-lg-0 text-start">
               <Nav.Link href="/servicios" className="mx-lg-2">Servicios</Nav.Link>
               <Nav.Link href="/sobremi" className="mx-lg-2">Sobre Mi</Nav.Link>
               <Nav.Link href="/contacto" className="mx-lg-2">Contacto</Nav.Link>
